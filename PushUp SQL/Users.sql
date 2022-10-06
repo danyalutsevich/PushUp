@@ -1,0 +1,16 @@
+CREATE TABLE Users (
+Id UNIQUEIDENTIFIER,
+Login NVARCHAR(50) PRIMARY KEY,
+Password NVARCHAR(50)
+)
+
+DROP TABLE Users 
+
+Select * from users
+
+INSERT INTO Users VALUES(NEWID(),'S PAIN','testing')
+
+
+
+
+
